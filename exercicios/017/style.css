@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* shorthand font
+
+font-style -> font-weight -> font-size -> font family
+
+*/
+
+main{
+    background-image: linear-gradient(to top, #FFEDE1, #F9FBF2);
+    background-color: white;
+    height: 5   16px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(To bottom, #6868F2, #5377DB);
+    font-family: 'Courier New';
+}
+
+h1{
+    color: #B35FF9;
+    font-style: italic;
+    font-family: 'Times New Roman', Times,serif ;
+    text-align: justify;
+}
+
+h2{
+    color: #B35FF9;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times,serif ;
+    text-align: justify;
+
+}

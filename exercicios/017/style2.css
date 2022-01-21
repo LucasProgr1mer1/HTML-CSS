@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+main{
+    background-image: linear-gradient(to top, #FFEDE1, #F9FBF2);
+    background-color: white;
+    height: 5   16px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(To bottom, #7D7ABC, #6457A6);
+    font-family: 'Courier New';
+}
+
+h1{
+    color: #EF767A;
+    font-style: italic;
+    font-family: 'Times New Roman', Times,serif ;
+    text-align: justify;
+    text-align: center;
+}
+
+h2{
+    color: #EF767A;
+    font-style: italic;
+    font-family: 'Times New Roman', Times,serif ;
+    text-align: justify;
+    text-align: center;
+}
