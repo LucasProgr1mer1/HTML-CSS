@@ -1,11 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? família=Paixão+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+:root{
+    --fonte1:Verdana, Geneva, tahoma, sans-serif;
+    --fonte2:'Passion One', cursivo;
+    --fonte3: 'Amatic SC', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 html, body{
+    font-family: var(--fonte1);
     min-height: 10vh;
     background-color: darkgray;
 }
@@ -17,14 +28,16 @@ header{
 }
 
 header > h1{
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8.5vw;
 }
 header > p{
     padding-bottom: 50px;
 }
 
-header, a footer a{
+header, a{
     color: white;
     text-decoration: none;
     font-weight:bolder;
@@ -39,6 +52,8 @@ section{
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -52,10 +67,21 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.444);
 
 }
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: black;
